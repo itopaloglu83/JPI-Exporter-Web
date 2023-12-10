@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url ./",
+    "build": "parcel build --public-url ./ --no-source-maps",
     "clean": "rm -rf .parcel-cache dist",
     "deploy": "npm run clean && npm run build && gh-pages -d dist"
   },
@@ -19,9 +19,7 @@
     "eslint": "^8.55.0",
     "file-saver": "^2.0.5",
     "gh-pages": "^6.1.0",
-    "parcel": "^2.10.3"
-  },
-  "dependencies": {
+    "parcel": "^2.10.3",
     "exceljs": "^4.4.0"
   }
 }
