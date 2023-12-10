@@ -1,0 +1,78 @@
+{
+    "Guid": "5345152d-48f0-47aa-b86a-300e0442da3a",
+    "Name": "Machine",
+    "ResourceCategory": {
+        "Name": "Machine",
+        "Guid": "6c8d2171-3a0d-43b2-9178-f6a72b2f7db3"
+    },
+    "Resources": [
+        {
+            "Name": "Silver Machine N",
+            "Guid": "1ca0cf1a-83cd-4b38-8764-64897a9622a3"
+        },
+        {
+            "Name": "Silver Machine S",
+            "Guid": "9e631e50-894c-439f-a65a-541262009315"
+        },
+        {
+            "Name": "Black Machine N",
+            "Guid": "a83edf8a-3b6a-450b-bdd0-2bce268259e5"
+        },
+        {
+            "Name": "Black Machine S",
+            "Guid": "0372c2c2-ae99-4b01-a7cb-7baaa8e971f0"
+        },
+        {
+            "Name": "Orange Machine N",
+            "Guid": "6e983175-d1ab-40f7-83ef-4d3e6ea0b762"
+        },
+        {
+            "Name": "Orange Machine S",
+            "Guid": "4eb5149b-f5c2-46f0-ab19-1938a1a007b6"
+        },
+        {
+            "Name": "Gray Machine",
+            "Guid": "cb517830-28a2-4c34-a8bf-77e6174ac804"
+        },
+        {
+            "Name": "Purple Machine N",
+            "Guid": "b44a1ff7-71de-4272-bab4-c4552341b91b"
+        },
+        {
+            "Name": "Purple Machine S",
+            "Guid": "72566e5f-a935-4252-8673-ef78a382b05c"
+        },
+        {
+            "Name": "Green Machine N",
+            "Guid": "bfbf142f-af24-4d28-8e52-bebcdc9d66ce"
+        },
+        {
+            "Name": "Green Machine S",
+            "Guid": "b0826637-98db-4eb4-8132-da4f5b4d1393"
+        },
+        {
+            "Name": "Blue Machine N",
+            "Guid": "6ec2af9b-24c4-451d-913f-d3f55985318d"
+        },
+        {
+            "Name": "Blue Machine S",
+            "Guid": "29fccd78-5080-41da-817e-b36917cc3a94"
+        },
+        {
+            "Name": "Red Machine N",
+            "Guid": "d9afe540-48be-4f1a-bc92-19b9cc6e3ca9"
+        },
+        {
+            "Name": "Red Machine S",
+            "Guid": "431f7a9e-aa26-4b53-829a-7b5dc462d7a8"
+        },
+        {
+            "Name": "Yellow Machine N",
+            "Guid": "8ec35386-3040-44ad-9c9b-473df26d011c"
+        },
+        {
+            "Name": "Yellow Machine S",
+            "Guid": "fd8d3a62-03c4-46f6-904e-66c5f20d2f65"
+        }
+    ]
+}
