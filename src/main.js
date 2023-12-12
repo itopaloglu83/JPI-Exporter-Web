@@ -4,7 +4,7 @@ const FileSaver = require('file-saver');
 
 // Globals.
 const validCustomerId = 'd1c5eb68-dc63-42a7-bc71-52e026e994d2';
-const validApiKey = '688ec158-7550-42d6-abf0-3eceb2af664a';
+// const validApiKey = '688ec158-7550-42d6-abf0-3eceb2af664a';
 
 const customerIdInput = document.getElementById('customerId');
 const apiKeyInput = document.getElementById('apiKey');
@@ -125,9 +125,9 @@ async function validateUserInputsAndGetApiKey() {
     if (!guidRegex.test(apiKey)) {
         throwError('Invalid format. Please provide a valid API Key.');
     }
-    if (apiKey !== validApiKey) {
-        throwError('API Key is not authorised for this application.');
-    }
+    // if (apiKey !== validApiKey) {
+    //     throwError('API Key is not authorised for this application.');
+    // }
 
     return apiKey;
 }
