@@ -293,9 +293,9 @@ async function transformJpiData(jpiData) {
                 if (fieldCount === 0) {
                     cellText = taskName;
                 } else if (fieldCount === 1) {
-                    cellText = taskCustomer;
-                } else if (fieldCount === 2 && taskSetup) {
                     cellText = taskLines;
+                } else if (fieldCount === 2) {
+                    cellText = taskCustomer;
                 } else {
                     cellText = '---';
                 }
